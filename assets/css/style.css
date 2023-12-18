@@ -27,6 +27,9 @@ text-transform: uppercase;
 letter-spacing: 2px;
 color: #252525;
 }
+.hidden-heading{
+    display:none;
+}
 
 /*header*/
 header {
@@ -150,9 +153,9 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url('../images/reasons-image.webp') no-repeat top center cover;
+    background: url('../images/reasons-image.webp') no-repeat top center/cover;
     height: 90vw;
-    margin: 90vw;
+    width: 90vw;
     margin-bottom: 20px;
     /* Makes the square into a circle*/
     border-radius:50%;
